@@ -1,0 +1,30 @@
+Angular is a javascript framework which allows you to create reactive single page applications
+Single Page Application: One html file, javascript change content [DOM] during run time
+Versioning :
+ Angular 1 is called angular js 
+Angular 2 and above are called angular applications, there are major changes in 1 and 2, but there are minor changes from 2, 4, 6 ,7 , 8.
+Angular 3 is not released
+Project Setup:
+1.	First install node js, its provide the npm node package manager, it contains tool to download dependencies, so its must be installed, simply download and install.
+2.	Now need to install angular cli by npm : npm install -g @angular/cli@latest
+3.	Now create new application by command ng new app_name
+4.	To run this go to project directory and run ng serve
+5.	Now we look project structure
+    a.	Online sell - project Name
+    i.	.settings
+    ii.	.vscode
+    iii.	.node_modules - contains all modules which are needed for our app. Like bootstrap
+    iv.	Src - contains all developer src code [component, services, models]
+1.	Component - all new components
+2.	Services
+3.	Model
+4.	App-routing-module.js : This is used for routing, when routing needed, routing is the way by which we can change component by click.
+5.	App.component.css	: CSS file for main component
+6.	App.component.html	: HTML file for main component
+7.	App.component.ts	: Type script file for main component.
+8.	App.module.ts		: configuration file to load modules.
+    v.	Angular.json - just like microservice application.properties
+    vi.	 package.json - just like pom.xml
+    vii.	Index.html
+    viii.	main.ts
+
